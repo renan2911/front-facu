@@ -44,9 +44,9 @@ class DataTable extends Component {
           <td>{item.estado}</td>
           <td>
             <div style={{width:"110px"}}>
-              <ModalForm buttonLabel="Edit" item={item} updateState={this.props.updateState}/>
+              <ModalForm buttonLabel="Editar" item={item} updateState={this.props.updateState}/>
               {' '}
-              <Button color="danger" onClick={() => this.deleteItem(item.id)}>Del</Button>
+              <Button color="danger" onClick={() => this.deleteItem(item.id)}>Deletar</Button>
             </div>
           </td>
         </tr>
