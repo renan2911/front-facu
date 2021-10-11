@@ -34,7 +34,6 @@ class DataTable extends Component {
       return (
         <tr key={item.id}>
           <th scope="row">{item.id}</th>
-          <td>{item.id}</td>
           <td>{item.nome}</td>
           <td>{item.email}</td>
           <td>{item.telefone}</td>
@@ -57,7 +56,7 @@ class DataTable extends Component {
       <Table responsive hover>
         <thead>
           <tr>
-          <th>ID</th>
+            <th>ID</th>
             <th>NOME</th>
             <th>EMAIL</th>
             <th>TELEFONE</th>
@@ -65,7 +64,6 @@ class DataTable extends Component {
             <th>BAIRRO</th>
             <th>CIDADE</th>
             <th>ESTADO</th>
-            <th>AÇÕES</th>
           </tr>
         </thead>
         <tbody>
